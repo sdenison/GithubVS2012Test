@@ -22,6 +22,7 @@ namespace GithubVS2012Test.Web.Controllers
         public ActionResult ShowAll()
         {
             var people = Domain.PersonList.GetPeople();
+            ViewData.Model = people;
             return View();
         }
 
