@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GithubVS2012Test.CommandLin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GithubVS2012Test.Web", "GithubVS2012Test.Web\GithubVS2012Test.Web.csproj", "{F619E767-9399-47DF-B334-E888DF1FD3E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GithubVS2012Test.Web.Tests", "GithubVS2012Test.Web.Tests\GithubVS2012Test.Web.Tests.csproj", "{0395DA52-9CD5-4592-B35C-A53EAD4D280E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 		{F619E767-9399-47DF-B334-E888DF1FD3E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F619E767-9399-47DF-B334-E888DF1FD3E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F619E767-9399-47DF-B334-E888DF1FD3E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0395DA52-9CD5-4592-B35C-A53EAD4D280E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0395DA52-9CD5-4592-B35C-A53EAD4D280E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0395DA52-9CD5-4592-B35C-A53EAD4D280E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0395DA52-9CD5-4592-B35C-A53EAD4D280E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
