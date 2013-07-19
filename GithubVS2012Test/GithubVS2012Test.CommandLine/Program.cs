@@ -8,6 +8,11 @@ namespace GithubVS2012Test.CommandLine
 {
     class Program
     {
+
+        /// <summary>
+        /// Adding some documentation so there's something to commit.
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             foreach (var person in Domain.PersonList.GetPeople())
