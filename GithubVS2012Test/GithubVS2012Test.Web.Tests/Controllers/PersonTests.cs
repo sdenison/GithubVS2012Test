@@ -63,5 +63,11 @@ namespace GithubVS2012Test.Web.Tests.Controllers
         {
             Assert.IsTrue(true);
         }
+
+        [TestMethod]
+        public void Test_ShouldFail()
+        {
+            Assert.IsTrue(false);
+        }
     }
 }
